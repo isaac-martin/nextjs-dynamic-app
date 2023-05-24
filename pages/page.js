@@ -3,7 +3,7 @@ import styles from './page.module.css';
 
 export default function Home(props) {
   console.log('props', props);
-  return <main className={styles.main}>THIS IS {props.mesage}</main>;
+  return <main className={styles.main}>THIS IS {props.message}</main>;
 }
 
 export async function getStaticProps() {
